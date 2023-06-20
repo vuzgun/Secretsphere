@@ -1,0 +1,18 @@
+Proje Ekibi/Proje Özeti (Proje Tanımı)
+
+Şekil-1: SeaSphere Proje Ekibi
+	Ekibimizin görev dağılımı yukarıda belirtildiği şekildedir. Sorun araştırması ve kaynak taraması Kaptan ile Üye-1 tarafından gerçekleştirilmiştir. Algoritmalar ve sistem mimarisi Kaptan tarafından oluşturulmuştur. 3B modellemeler Üye-2, logo ve şema tasarımları Üye-1 tarafından tasarlanmıştır. Modelin test edilmesi Üye-2 tarafından gerçekleştirilmiştir. Gerekli fon ve izinler danışman tarafından sağlanmıştır. Elde edilen veriler ekip üyelerince değerlendirilmiş ve rapor tamamlanmıştır.
+Projemizde ise, insanların denize olan meraklarını gidermeyi amaçlıyoruz. Bu amaç doğrultusunda tasarladığımız küre insanların güvenli ve ucuz bir şekilde denizin altına girmelerini ve orada gezintiye çıkmalarını sağlayacaktır. Aynı zamanda tasarladığımız küre sayesinde turistik bölgelerde otel gibi işletmelerin düşük bütçe ve masraflarla ciddi gelir kaynakları oluşturmayı planlıyoruz. Bu sayede hem müşteri profilimizi oluşturan turistleri hem de işletmeciler olan otel sahiplerini memnun etmeyi hedefliyoruz. Küremizin sahip olduğu PING360-SONAR-R2-RP sonar cihazı sistemi sayesinde koy ve falezlerde kullanılabilir olması, onu bu bölgelerde araştırmalar için de kullanılabilir kılıyor.
+Raporda projede kullanılacak olan algoritmalardan, projemizin sistem mimarisinden, hayata geçirilebilir yönlerinden, yenilikçi ve özgün taraflarından, çözüm ürettiği ihtiyaçtan, SWOT analizinden; akış şemaları, SolidWorks çizimleri ve web kaynaklı görseller kullanarak bahsedilmiştir.
+
+
+Tasarım
+Aracımızın tasarımı şekildeki gibi olup iki adet cam küre, dış kısımda 1 adet pervane ve iki adet kanatçık, üst kısımda 1 adet denizaltılarda kullanılan vanalı kapı, kürenin  alt kısmında ise suyun içeri girip dışarı çıkmasını sağlayan kapakçık ve sonar sistemi bulunur. İç kürenin içinde iki adet koltuk ve kontrol paneli bulunur. İki küre arası içi boş bağlantı parçaları ve bu bağlantı parçalarının içinde hava tankları bulunur. Ayrıca iki küre arası kapakçığın etrafında PA23-501 hava kompresörü bulunur.
+Şekil-2: Küre Tasarımı
+
+Yazılım 
+Aracımızda kullanılması planlanan elektronik parçaların ( SKU-SEN0257 su basınç sensörü, PING360-SONAR-R2-RP sonar cihazı sistemi, NEO-6M GPS modülü, LORA SX1276 haberleşme modülü) kontrolleri Arduino Mega kartı ile sağlanacaktır. Sahilde bulunacak komuta merkezi ile iletişim ise LORA SX1276 modülü ile sağlanacaktır. Bu sayede güvenlik en üst seviyede tutulacaktır.
+
+Montaj
+Cam küreler, kısa metal bağlantı parçaları ile birbirine bağlanır. Pervane sistemi ise dış küreyi geçerek iç küre ile bağlantı kurar. Aynı şekilde üst kısımdaki vanalı kapı iç küre ile bağlantı kurar. Alt kısımdaki kapakçık ve sonar sistemi ise dış küre üzerine yerleştirilir. Bağlantı parçalarının arasındaki hava tankları iç küre içinden takıp çıkarılabilir şekilde monte edilir. Üst kısımdaki vanalı kapının etrafında iç küre ile dış küre arasına sabit bir şekilde monte edilmiş PA23-501 hava kompresörü sistemi bulunur.
+
